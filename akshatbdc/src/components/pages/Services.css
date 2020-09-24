@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+
+
+.aksshat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+}
+.service-center{
+    width: 70%;
+    height: 300px;
+    background: whitesmoke;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #2479a7;
+    /* box-shadow: 10px 10px 25px #00a3df; */
+    
+}
+.service-center:hover{
+    transform: scale(1.1);
+}
+
+.service-center:hover{
+    /* box-shadow: 10px 10px 25px white; */
+}
+.service-heading-bold{
+text-align: center;
+font-size: 32px;
+display: flex;
+justify-content: center;
+font-weight: 700;
+padding: 5px;
+margin-top: 25px;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+.service-text{
+margin-top: 15px;
+text-align: center;
+/* color: #00353c; */
+font-weight: 600;
+padding: 10px;
+font-size: 1000px;
+
+
+}
+.service-center:hover{
+    background:  #151515;
+    transition: 0.8s ease;
+    color: white;
+    /* cursor: url('logo193.png'), pointer; */
+}
+/* .service-heading-bold:hover{
+    color: white;
+} */
+@media (max-width:2571px){
+    .service-center{
+        height: 300px; 
+        /* margin-top: 50px;   */
+    }
+    .service-text{
+        /* margin-top: 30px; */
+    }
+}
+@media (max-width:1756px){
+.service-text{
+    font-size: 20px;
+}
+}
+@media (max-width:1355px){
+    .aksshat{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:1199px){
+    .aksshat{
+        grid-template-columns: 1fr 1fr;
+    }
+    .service-text{
+        font-size: 18px;
+    }
+}
+@media (max-width:893px){
+    .service-center{
+        width: 80%;
+        height: 250px;
+}
+
+.service-heading-bold{
+    font-size: 26px;
+}
+}
+@media (max-width:780px){
+    .service-text{
+        font-size: 15px;
+    }
+    .service-heading-bold{
+font-size: 23px;
+    }
+    .service-center{
+        margin-left: 30px;
+    }
+}
+@media (max-width:566px){
+    .service-center{
+        width: 70%;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .service-heading-bold{
+        font-size: 20px;
+            }
+            .service-text{
+                font-size: 10px;
+                margin-top: -5px;
+            }
+}
+@media(max-width:422px){
+    .service-center{
+        width: 90%;
+        
+    }
+    .service-center{
+        margin-left: 10px;
+    }
+}

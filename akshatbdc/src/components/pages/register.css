@@ -1,0 +1,148 @@
+
+.wrap{
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 3px 3px 10px #00a3df ;
+    margin-top: 50px;
+}
+.wrap .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2479a7;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width:264px){
+    .wrap .title{
+        font-size: 20px;
+    }
+}
+.wrap .form{
+    width: 100%;
+
+}
+.wrap .form .input_field{
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+}
+.wrap .form .input_field label{
+    width: 200px;
+    color: #2479a7;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap .form .input_field .input{
+    width: 90%;
+    outline: none;
+    border: 1px inset #00a3df;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.wrap .form .input_field .input ::placeholder{
+font-size: 15px;
+font-weight: 900;
+}
+.wrap .form .input_field .custom_select{
+    position: relative;
+    width: 90%;
+    height: 37px;
+}
+.wrap .form .input_field .custom_select select{
+    border: 2px outset #2479a7;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height:100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: #2479a7;
+    color: white;
+}
+.wrap .form .input_field  .input:focus{
+    border: 2px solid #00a3df;
+}
+.wrap .form .input_field_terms span{
+    font-size: 14px;
+    color: #2479a7;
+    font-weight: 700;
+
+
+}
+.wrap .form .input_field_terms .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.wrap .form .input_field_terms .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+
+}
+.wrap .form .input_field_terms .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00a3df;
+    display: block;
+    position: relative;
+}
+.wrap .form .input_field_terms .check .checkmark:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 2px;
+    
+    
+}
+.wrap .form .input_field ._btn_{
+    width: 80%;
+    padding: 8px 10px;
+    font-size: 15px;
+    /* border: 2px inset #2479a7; */
+   
+    color: #2479a7;
+    background: white;
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 12%;
+    text-decoration: none;
+}
+.wrap .form .input_field ._btn_:hover{
+    background: #2479a7;
+    color: white;
+    /* border: 2px inset #00a3df; */
+    transition: all 0.6s ease;
+}
+
+@media (max-width:1055px){
+    .wrap{
+        max-width: 500px;
+    }
+}
+@media(max-width:537px){
+    .wrap .form .input_field{
+        display: block;
+    }
+}
+
+
+

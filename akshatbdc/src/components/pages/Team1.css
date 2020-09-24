@@ -1,0 +1,252 @@
+body{
+    background: url('/images/img-best.jpg') /cover;
+}
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-track{
+ background: #151515;
+    border: 0px solid #151515;
+ box-shadow: inset 0 0 2.5 2px rgba(0,0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb{
+background:#fff;
+/* padding: 15px; */
+border-radius: 0%;
+/* margin-top: 20px; */
+
+}
+
+.light{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* max-width: 1056px; */
+}
+.theline{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    /* margin-top: 50px; */
+   /* margin-left: 60px; */
+}
+.maincontainer{
+    position: relative;
+    width: 230px;
+    height: 300px;
+    /* background: green; */
+    cursor: pointer;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.maincontainer:hover{
+    transform: scale(1.08);
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+    /* background: yellow; */
+    cursor: pointer;
+    /* border: 2px solid aqua;
+    border-radius: 10px; */
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:#151515;
+    opacity: 1;
+    color: black;
+    /* border: 2px solid aqua; */
+    border-radius: 10px;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:#151515;
+    /* color: yellow; */
+    transform: rotateY(180deg);
+    /* border: 2px solid aqua; */
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.imgfront{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+.info{
+    text-align: center;
+    margin-top: 50%;
+    font-size: 1.5rem;
+    color: #2479a7;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+.domain{
+display: flex;
+align-items:center;
+justify-content:center;
+font-size: 20px;
+color: white;
+margin-top: 10px;
+}
+
+
+.team-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 25px;
+    /* margin-top: 2px; */
+    letter-spacing: 16px;
+    margin-top: 15px;
+
+}
+.fb{
+    color: black;
+}
+.fb:hover{
+    color: white;
+    /* background: black; */
+    padding: 2px;
+    text-align: center;
+}
+.back-1234{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+
+@media (max-width:1120px){
+    .light{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:857px){
+    .maincontainer{
+        width: 200px;
+    height: 270px;
+    }
+    .imgfront{
+        height: 170px;
+        width: 170px;
+    }
+    .year{
+        font-size: 20px;
+    }
+    .domain{
+        font-size: 18px;
+    }
+}
+@media (max-width:756px){
+    .light{
+        grid-template-columns: 1fr 1fr;
+    }
+    .maincontainer{
+        margin-left: 60px;
+    }
+}
+@media (max-width:589px){
+    .maincontainer{
+        width: 170px;
+    height: 240px;
+    }
+    .imgfront{
+        height: 140px;
+        width: 140px;
+    }
+    .domain{
+        margin-bottom: -10px;
+    }
+    .technical{
+        margin-top: 0px;
+    }
+    .info{
+        margin-top: 50%;
+    }
+}
+@media (max-width:509px){
+    .maincontainer{
+        margin-left: 40px;
+    }
+}
+@media (max-width:456px){
+    .maincontainer{
+        width: 120px;
+    height: 190px;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+    .imgfront{
+        height: 90px;
+        width: 90px;
+    }
+    .light{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .info{
+        font-size: 1rem;
+    }
+    .technical{
+        font-size: 14px;
+    }
+    .domain{
+        font-size: 13px;
+    }
+    .branch{
+        font-size: 15px;
+    }
+    .year{
+        font-size: 16px;
+        margin-top: 1px;
+    }
+}
+@media (max-width:422px){
+    .light{
+        grid-template-columns:1fr 1fr;
+    }
+    .maincontainer{
+        width: 150px;
+    height: 190px;
+    margin-left: 25px;
+    }
+    .imgfront{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media (max-width:372px){
+    .maincontainer{
+        width: 120px;
+    height: 160px;
+    margin-left: 25px;
+    }
+    .imgfront{
+        height: 100px;
+        width: 100px;
+    }
+    .team-social{
+        font-size:15px
+    }
+}

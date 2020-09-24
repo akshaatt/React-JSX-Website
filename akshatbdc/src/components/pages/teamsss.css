@@ -1,0 +1,36 @@
+.recruit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: #fff;
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+}
+.back-123{
+    float: left;
+    margin-top: -50px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+@media (max-width:610px){
+    .recruit{
+        font-size: 5rem;
+    }
+}
+@media (max-width:510px){
+    .recruit{
+        font-size: 4rem;
+    }
+}
+@media (max-width:405px){
+    .recruit{
+        font-size: 3rem;
+    }
+}
+@media (max-width:307px){
+    .recruit{
+    font-size: 2rem;
+    }
+}

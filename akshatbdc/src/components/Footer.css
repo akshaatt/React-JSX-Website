@@ -73,9 +73,10 @@
 .footer-link-items h2:hover{
     /* border-top: 4px inset white; */
     /* border-left: 4px outset white; */
-    border-bottom: 4px outset white;
+    /* border-bottom: 4px outset white; */
+    color: #2479a7;
     /* border-right: 4px outset white; */
-    padding: 2px;
+    /* padding: 2px; */
     /* color: white; */
     transition: 0.3 ease;
 }
@@ -86,13 +87,13 @@
     font-size: 15px;
 }
 .footer-link-items p:hover{
-    background: #00a3df;
+    /* background: #00a3df; */
     color: #fff;
-    padding: 5px;
+    /* padding: 5px; */
     transition: 0.4s ease-out;
-    border: 2px outset #00a3df;
+    /* border: 2px outset #00a3df; */
     border-radius: 10px;
-    cursor: initial;
+    cursor: not-allowed;
 }
 .policy{
     text-align: center;
@@ -118,7 +119,7 @@
     }
 }
 .social-icon-link{
-    color: #fff;
+    color: #404040;
     font-size: 34px;
     margin: 20px;
 }
@@ -127,11 +128,21 @@
         font-size: 24px; 
     }   
 }
+/* .social-icons{
+    ;
+} */
 .social-icon-link:hover{
-    border: 3px inset #00a3df;
-    padding: 10px;
+    /* border: 3px inset #00a3df; */
+    /* padding: 10px; */
     cursor: pointer;
-    transition: 0.5s ease;
+    /* transition: 0.2s ease; */
+    opacity: 1;
+    transform: scale(1.1);
+    color: white;
+}
+.Facebook:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
 .social-media{
    

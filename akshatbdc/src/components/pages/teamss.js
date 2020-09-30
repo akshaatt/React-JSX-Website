@@ -10,14 +10,14 @@ import logo from './logo193.png';
 export default function Teamss(){
     const teamsnames=
     [
-        {"name":"Riya Garg", "branch": "CSE", "year": "3rd", "domain": "App Development","fb":"", "gh":"", "insta":""},
-        {"name":"Tanya Agarwal", "branch": "IT", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "insta":""},
-        {"name":"Taru Agarwal", "branch": "CSE", "year": "3rd", "domain": "App Development","fb":"", "gh":"", "insta":""},
-        {"name":"Devansh Srivastav", "branch": "CSE", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "insta":""},
-        {"name":"Kishan Baranwal", "branch": "CSE", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "insta":""},
-        {"name":"Deepak Chaurasia", "branch": "IT", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "insta":""},
-        {"name":"Karan Yadav", "branch": "CSE", "year": "3rd", "domain": "Machine Learning","fb":"", "gh":"", "insta":""},
-        {"name":"Prakanshu Sahu", "branch": "CSE", "year": "3rd", "domain": "Machine Learning","fb":"", "gh":"", "insta":""},
+        {"name":"Riya Garg", "branch": "CSE", "year": "3rd", "domain": "App Development","fb":"", "gh":"https://github.com/Riya28042000", "ln":""},
+        {"name":"Tanya Agarwal", "branch": "IT", "year": "3rd", "domain": "Web Development","fb":"", "gh":"https://github.com/tanyaagar", "ln":""},
+        {"name":"Taru Agarwal", "branch": "CSE", "year": "3rd", "domain": "App Development","fb":"", "gh":"https://github.com/taru1610", "ln":""},
+        {"name":"Devansh Srivastav", "branch": "CSE", "year": "3rd", "domain": "Web Development","fb":"", "gh":"https://github.com/devanshsa5a", "ln":""},
+        {"name":"Kishan Baranwal", "branch": "CSE", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "ln":""},
+        {"name":"Deepak Chaurasia", "branch": "IT", "year": "3rd", "domain": "Web Development","fb":"", "gh":"", "ln":""},
+        {"name":"Karan Yadav", "branch": "CSE", "year": "3rd", "domain": "Machine Learning","fb":"", "gh":"https://github.com/karan221", "ln":""},
+        {"name":"Prakanshu Sahu", "branch": "CSE", "year": "3rd", "domain": "Machine Learning","fb":"", "gh":"https://github.com/prakanshurockss", "ln":""},
     
    
 
@@ -28,7 +28,7 @@ export default function Teamss(){
         <div className="light">
         {
             teamsnames.map(singlecard=>{
-                    return <TeamCard1  name={singlecard["name"]}  domain={singlecard["domain"]} fb={singlecard["fb"]} gh={singlecard["gh"]} insta={singlecard["insta"]}></TeamCard1>
+                    return <TeamCard1  name={singlecard["name"]}  domain={singlecard["domain"]} fb={singlecard["fb"]} gh={singlecard["gh"]} ln={singlecard["ln"]}></TeamCard1>
                 })
         }
         </div>

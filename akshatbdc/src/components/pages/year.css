@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     transition: 0.6s;
     text-decoration: none;
+    transition: all 0.5s ease-in;
 }
 .yearmain:hover{
     /* filter: blur(20px); */
@@ -30,7 +31,7 @@
 .box2:hover{
     /* filter: blur(0px); */
     /* opacity: 1; */
-    transform: scale(1.2);
+    transform: scale(1.3);
     /* z-index: -1; */
     cursor: pointer;
 }
@@ -55,21 +56,21 @@
     bottom: -2px;
     background: #151515;
     z-index: -2;
-    filter: blur(0px);
+    filter: blur(5px);
     text-decoration: none;
 }
-/* .box2:nth-child(1):before,
+/* .box2:nth-child(1):before, */
 .box2:nth-child(1):after{
     background: linear-gradient(235deg, #fff,#010615,#00a3df);
 }
-.box2:nth-child(2):before,
+/* .box2:nth-child(2):before, */
 .box2:nth-child(2):after{
     background: linear-gradient(235deg, #fff,#010615,#00a3df);
 }
-.box2:nth-child(3):before,
+/* .box2:nth-child(3):before, */
 .box2:nth-child(3):after{
     background: linear-gradient(235deg, #fff,#010615,#00a3df);
-} */
+}
 /* .box2 .glass{
 position: absolute;
 top: 0;
@@ -100,6 +101,7 @@ text-decoration: none;
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    font-weight: 600;
 }
 .box2 .content2 h3{
     text-align: center;

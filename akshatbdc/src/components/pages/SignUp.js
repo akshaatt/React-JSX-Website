@@ -2,87 +2,66 @@ import React from 'react'
 // import '../../App.css'
 import './register.css'
 import { Link } from 'react-router-dom'
-export default function SignUp(){
-    return (
+import { Formik } from "formik"
+import * as Yup from "yup"
+
+export default function ValidationLoginForm(){
+
+   return (
 <>
-    <h1 className="sign-up">
-    Registration @BDCoE
-    </h1>
-    <form>
-    <div className="wrap">
-<div className='title'>
-    Registration @BDCoE
+  <div classname="inpmain">  
+<div className="inp_container">
+    <div className="inp_header">
+        <h2>Registration Form</h2>
+    </div>
+    <form className="inp_form" id="inp_form">
+<div className="form-control">
+    <label>Name</label>
+    <input type="text" name="" id="username" placeholder="Enter Full Name"></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
+    </div>
+    <div className="form-control">
+    <label>Email</label>
+    <input type="Email" name="" id="email" placeholder="Enter Email"></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
+    </div>
+    <div className="form-control">
+    <label>Phone Number</label>
+    <input type="number" name="" id="phone" placeholder="Enter Phone Number"></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
+    </div>
+    <div className="form-control">
+    <label>Domain</label>
+    <input type="text" name="" id="domain" placeholder="Enter Domain"></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
+    </div>
+    <div className="form-control">
+    <label>Languages</label>
+    <input type="text" name="" id="language" placeholder="Enter Known Languages"></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
+    </div>
+    <div className="form-control">
+    <label>University Roll No.</label>
+    <input type="number" name="" id="roll" placeholder="Enter Univrsity Roll No."></input>
+	<i classname="fab fa-check" />
+    <i classname="fab fa-exclamation-circle" />
+    <small>Error Message</small>
 </div>
-<div className='form'>
-    <div className='input_field' >
-        <label>First Name</label>
-        <input type="text" className='input' placeholder="Enter Your First Name" required />
-    </div>
-    <div className='input_field'>
-        <label>Last Name</label>
-        <input type="text" className='input' placeholder="Enter Your Last Name" required />
-    </div>
-    <div className='input_field'>
-        <label>Email ID</label>
-        <input type="email" className='input' placeholder="Enter Your @akgec.ac.in Email" required  />
-    </div>
-    <div className='input_field'>
-        <label>Phone Number</label>
-        <input type="text" className='input' placeholder="Enter Whatsapp Phone Number" required />
-    </div>
-    <div className='input_field'>
-        <label>Gender</label>
-        <div className="custom_select">
-        <select>
-            <option value="" selected>Your Gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="">Other</option>
-        </select>
-        </div>
-    </div>
-    <div className='input_field'>
-        <label>Domain</label>
-        <div className="custom_select">
-        <select>
-            <option value="" selected>Your Domain</option>
-            <option value="developer">Developer</option>
-            <option value="designer">Designer</option>
-        </select>
-        </div>
-    </div>
-    <div className='input_field'>
-        <label>Tech. Knowledge</label>
-        <input type="text" className='input' placeholder="Languages/Softwares You Know" required />
-    </div>
-    <div className='input_field'>
-        <label>Student Number</label>
-        <input type="text" className='input' placeholder="Enter Your Seven Digit Student Number" required />
-    </div>
-    <div className='input_field'>
-        <label>University Number</label>
-        <input type="text" className='input' placeholder="Enter Your 13 Digit University Roll No." required />
-    </div>
-    <div className='input_field'>
-        <label>Class Section</label>
-        <input type="text" className='input' placeholder="Enter Your Current Section" required />
-    </div>
-    <div className="input_field_terms">
-        <label className="check">
-            <input type="checkbox" />
-            <span className="checkmark"></span>
-        </label>
-        <span>I Agree All Terms And Conditions</span>
-    </div>
-    <Link to="/clear">
-    <div className='input_field'>
-    <input type="submit" value="Get Recruited Now" className="_btn_" />
-    </div>
-    </Link>
-</div>
-    </div>
+<input classname="inp_btn" type="submit" value="submit" name="" ></input>
     </form>
+</div>
     
+    </div>   
 </>
     );
 }

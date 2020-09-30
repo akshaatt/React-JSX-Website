@@ -3,7 +3,8 @@ import CardItem from './CardItem'
 import './Cards.css';
 import img from '../img-13.jpg';
 import img1 from '../img-12.jpg';
-import logo from '../logo194.png';
+import logo from '../logo195.png';
+import img2 from '../img-03.png';
 
 function Cards() {
     return (
@@ -20,7 +21,7 @@ function Cards() {
                     />
                     <CardItem 
                         src={img}
-                        text="Events"
+                        text="BDCoE Events"
                         // label="SERVICES"
                         path='/event'
                     />
@@ -29,6 +30,12 @@ function Cards() {
                         text="Recruitment DRiVE"
                         // label="SERVICES"
                         path='/procedure'
+                    />
+                    <CardItem 
+                        src={img2}
+                        text="Photo Gallery"
+                        // label="SERVICES"
+                        path='/pics'
                     />
               
                 </ul>

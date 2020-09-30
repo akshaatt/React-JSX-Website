@@ -8,7 +8,7 @@ export default function teamsss(){
     return(
         <>
 <div className="recruit">
-    Coming Soon...
+    Coming Soon<span className="dotv dot-1v"></span><span className="dotv dot-2v"></span><span className="dotv dot-3v"></span>
 </div>
  <Link to="/year">
                 <div className="back-123">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button';
 import './Footer.css';
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -60,17 +61,20 @@ function Footer() {
         <div className='social-media'>
             <div className='social-media-wrap'>
                 <div className='social-icons'>
-                    <akshat className='social-icon-link Instagram'>
+                   <a href="https://www.instagram.com/bdcoe/" target="_blank"><akshat className='social-icon-link Facebook'>
                     <i className='fab fa-instagram'></i>
-                    </akshat>
-                    <akshat className='social-icon-link Twitter'>
-                    <i className='fab fa-twitter'></i>
-                    </akshat>
-                    <akshat className='social-icon-link Linkedin'>
-                    <i className='fab fa-linkedin'></i></akshat>
-                    <akshat className='social-icon-link Facebook'>
+                    </akshat></a>
+                    <a href="https://www.facebook.com/bigdatacoe/" target="_blank"><akshat className='social-icon-link Facebook'>
+                    <i className='fab fa-facebook'></i>
+                    </akshat></a>
+                    <a href="https://www.linkedin.com/school/big-data-centre-of-excellence/about/" traget="_blank"><akshat className='social-icon-link Linkedin'>
+                    <i className='fab fa-linkedin'></i></akshat></a>
+                    <a href="https://github.com/bdcoe" target="_blank"><akshat className='social-icon-link Facebook'>
                     <i className='fab fa-github'></i>
-                    </akshat>
+                    </akshat></a>
+                    <a href="https://www.youtube.com/channel/UCE-dW0xxvpZq_UWZ9B5jKUA" target="_blank"><akshat className='social-icon-link Facebook'>
+                    <i className='fab fa-youtube'></i>
+                    </akshat></a>
                 </div>
             </div>
         </div>

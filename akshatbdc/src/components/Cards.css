@@ -12,6 +12,8 @@
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 2rem;
+    letter-spacing: 15px;
+    cursor: not-allowed;
   }
 
   
@@ -39,7 +41,9 @@
      background-color: #2479a7;  /*#1a639c; */
     color: white;
     font-family: 'Roboto', sans-serif;
+    
   }
+
   
   .cards__item__link {
     display: flex;
@@ -57,7 +61,7 @@
   
   .cards__item__pic-wrap {
     position: relative;
-    width: 275px;
+    width: 300px;
     padding-top: 75%;
     overflow: hidden;
   }
@@ -87,6 +91,7 @@
   }
   
   .cards__item__info {
+    transition: 0.3s;
     padding: 20px 30px 30px;
   }
   
@@ -102,6 +107,7 @@
   }
   .cards__item__text:hover{
     transform: scale(1.2);
+    transition: 0.3s;
   }
   
   @media only screen and (min-width: 1200px) {
@@ -110,13 +116,13 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1338px) {
     .cards__items {
       display: flex;
     }
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1338px) {
     .cards__item {
       margin-bottom: 2rem;
     }

@@ -10,16 +10,16 @@ import logo from './logo193.png';
 export default function Teams() {
     const teamsnames =
         [
-            { "name": "Shashank Sahai", "branch": "IT", "year": "4th", "domain": "App Development", "fb": "", "gh": "", "insta": "" },
-            { "name": "Ripudaman Singh", "branch": "IT", "year": "4th", "domain": "Web Development", "fb": "", "gh": "", "insta": "" },
-            { "name": "Anand Kumar", "branch": "CSE", "year": "4th", "domain": "Web Development" },
-            { "name": "Disha Rastogi", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "insta": "" },
-            { "name": "Vidhi Dixit", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "insta": "" },
-            { "name": "Ambika Agarwal", "branch": "CSE", "year": "4th", "domain": "Designer", "fb": "", "gh": "", "insta": "" },
-            { "name": "Shivam Saxena", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "insta": "" },
-            { "name": "Shivam Tiwari", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "insta": "" },
-            { "name": "Gaurang Agarwal", "branch": "CSE", "year": "4th", "domain": "App Development", "fb": "", "gh": "", "insta": "" },
-            { "name": "Vibhas Singh", "branch": "CSE", "year": "4th", "domain": "App Development", "fb": "", "gh": "", "insta": "" },
+            { "name": "Shashank Sahai", "branch": "IT", "year": "4th", "domain": "App Development", "fb": "", "gh": "https://github.com/Shashank25071999", "ln": "" },
+            { "name": "Ripudaman Singh", "branch": "IT", "year": "4th", "domain": "Web Development", "fb": "", "gh": "https://github.com/ripu502", "ln": "" },
+            { "name": "Anand Kumar", "branch": "CSE", "year": "4th", "domain": "Web Development" , "gh": "https://github.com/anandhere8", "ln": "" },
+            { "name": "Disha Rastogi", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "https://github.com/disha28", "ln": "" },
+            { "name": "Vidhi Dixit", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "ln": "" },
+            { "name": "Ambika Agarwal", "branch": "CSE", "year": "4th", "domain": "Designer", "fb": "", "gh": "", "ln": "" },
+            { "name": "Shivam Saxena", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "https://github.com/an09mous", "ln": "" },
+            { "name": "Shivam Tiwari", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "ln": "" },
+            { "name": "Gaurang Agarwal", "branch": "CSE", "year": "4th", "domain": "App Development", "fb": "", "gh": "https://github.com/gaurang1235", "ln": "" },
+            { "name": "Vibhas Singh", "branch": "CSE", "year": "4th", "domain": "App Development", "fb": "", "gh": "", "ln": "" },
 
 
         ];
@@ -29,7 +29,7 @@ export default function Teams() {
             <div className="light">
                 {
                     teamsnames.map(singlecard => {
-                        return <TeamCard1 name={singlecard["name"]} domain={singlecard["domain"]} fb={singlecard["fb"]} gh={singlecard["gh"]} insta={singlecard["insta"]}></TeamCard1>
+                        return <TeamCard1 name={singlecard["name"]} domain={singlecard["domain"]} fb={singlecard["fb"]} gh={singlecard["gh"]} ln={singlecard["ln"]}></TeamCard1>
                     })
 
                 }

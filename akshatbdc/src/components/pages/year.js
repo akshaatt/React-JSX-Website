@@ -13,7 +13,7 @@ export default function year(){
     <div className="glass"></div>
         <div className="content2">
            <h2>Fourth-Year</h2>
-            <p>The Following Presents You The Team BDCoE Memebers of The Final Year </p>
+            <p>The Card Presents You the Super-Seniors of The BDCoE Society! </p>
             <h3>2017-2021</h3>
         </div>
     
@@ -24,7 +24,7 @@ export default function year(){
     <div className="glass"></div>
         <div className="content2">
             <h2>Third-Year</h2>
-            <p>The Following Presents You The Team BDCoE Memebers of The Third Year </p>
+            <p>The Card Presents You the Current Third Year Members of BDCoE society! </p>
             <h3>2018-2022</h3>
         </div>
     
@@ -35,7 +35,7 @@ export default function year(){
     <div className="glass"></div>
         <div className="content2">
             <h2>Second-Year</h2>
-            <p>The Following Presents You The Team BDCoE Memebers of The Second Year </p>
+            <p>The Card Presents You The Newly Recruited Second Year Members of BDCoE Society! </p>
             <h3>2019-2023</h3>
         </div>
     

@@ -1,49 +1,152 @@
-:root{
-    --myfont: 'Mulish', sans-serif;
-    --my-btn-font: 'Montserrat', sans-serif;
-    --lg-lightcolor: linear-gradient(to left rgba(116, 235, 213, 0.6), rgba(159, 172, 230, 0));
-    --lg-color: linear-gradient(to left, #74ebd5, #9face6)
+.sub-main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.inpmain{
-    font-family: var(--myfont);
-    display: grid;
+.contact5{
+    position: relative;
+    min-height: 80vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    min-height: 1000vh;
-    width: 100vw;
+    flex-direction: column;
+    /* border: 3px inset #2479a7; */
+    font-family: 'Roboto', sans-serif;
 }
-.inp_container{
-    background: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0 2.8px 2.2px rgba(0,  0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12;
-    overflow: hidden;
-    width: calc(100vw - 65vw);
-    max-width: 100%;
-}
-.inp_header{
-    background: var(--lg-color);
-    padding: 30px 0;
-}
-.inp_header h2{
-    color: #222;
-    font-family: var(--my-btn-font);
-    font-size: 24px;
-    text-transform: uppercase;
+.contact5 .contentk{
+    max-width: 800px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
-.inp_btn{
-background: var(--lg-color);
-border-radius: 6px;
-border: none;
-outline: none;
-display: block;
-font-family: var(--my-btn-font);
-font-size: 16px;
-padding: 15px 0;
-margin-top: 20px;
-width: 100%;
-font-weight: bold;
-text-transform: uppercase;
-transition: all 1s ease;
+.contact5 .contentk h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.contact5 .contentk p{
+    
+    font-weight: 700;
+    color: #00bcd4;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.container5 .contactInfo5{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.container5 .contactInfo5 .box5{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.container5 .contactInfo5 .box5 .icon5{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.container5 .contactInfo5 .box5 .text5{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.container5 .contactInfo5 .box5 .text5 h3{
+    font-weight: 500;
+    color: #2479a7;
+    font-family: 'Roboto', sans-serif;
+}
+.contactForm5{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.contactForm5 h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm5 .inputBox5{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm5 .inputBox5 input,
+.contactForm5 .inputBox5 textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contactForm5 .inputBox5  span{
+    position: absolute;
+    left: 0;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm5 .inputBox5 input:focus ~ span,
+.contactForm5 .inputBox5 input:valid ~ span,
+.contactForm5 .inputBox5 textarea:focus ~ span,
+.contactForm5 .inputBox5 textarea:valid ~ span{
+    color: #2479a7;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.btn5{
+    width: 50%;
+    background: #2479a7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.btn5:hover{
+    background: #00bcd4;
+}
+@media(max-width:1073px){
+    .contact5{
+        padding: 50px;
+    }
+    .container5{
+        flex-direction: column;
+    }
+    .contactForm5{
+        width: 80%;
+    }
 }

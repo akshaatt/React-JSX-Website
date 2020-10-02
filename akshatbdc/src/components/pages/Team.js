@@ -14,7 +14,7 @@ export default function Teams() {
             { "name": "Ripudaman Singh", "branch": "IT", "year": "4th", "domain": "Web Development", "fb": "", "gh": "https://github.com/ripu502", "ln": "" },
             { "name": "Anand Kumar", "branch": "CSE", "year": "4th", "domain": "Web Development" , "gh": "https://github.com/anandhere8", "ln": "" },
             { "name": "Disha Rastogi", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "https://github.com/disha28", "ln": "" },
-            { "name": "Vidhi Dixit", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "ln": "" },
+            { "name": "Vidhi Dixit", "branch": "IT", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "https://github.com/vidhidixit", "ln": "" },
             { "name": "Ambika Agarwal", "branch": "CSE", "year": "4th", "domain": "Designer", "fb": "", "gh": "", "ln": "" },
             { "name": "Shivam Saxena", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "https://github.com/an09mous", "ln": "" },
             { "name": "Shivam Tiwari", "branch": "CSE", "year": "4th", "domain": "Machine Learning", "fb": "", "gh": "", "ln": "" },

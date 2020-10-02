@@ -15,6 +15,12 @@
     letter-spacing: 15px;
     cursor: not-allowed;
   }
+  @media(max-width:472px){
+    .cards h1{
+      font-size: 100%;
+      letter-spacing: 5px;
+    }
+  }
 
   
   .cards__container {
@@ -29,7 +35,7 @@
     margin: 50px 0 45px;
   }
   
-  .cards__items {
+  .cards__item {
     margin-bottom: 24px;
   }
   
@@ -37,7 +43,7 @@
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    border-radius: 20px;
+    border-radius: 10px;
      background-color: #2479a7;  /*#1a639c; */
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -52,7 +58,7 @@
     box-shadow: 7px 6px 20px rgba(1, 12, 31, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;

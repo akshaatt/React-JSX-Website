@@ -9,8 +9,8 @@ function CardItem(props) {
         <>
         <li className='cards__item'>
             <Link className='cards__item__link' to={props.path}>
-                <figure className='cards__item__pic-wrap' data-cateogary={props.label}>
-                    <img src={props.src} alt="SERVICES" className='cards__item__img' />
+                <figure className='cards__item__pic-wrap'>
+                    <img src={props.src} alt="Error!!404" className='cards__item__img' />
                 </figure>
                 <div className='cards__item__info'>
                     <h5 className='cards__item__text'>{props.text}

@@ -1,6 +1,6 @@
 import React from 'react'
 // import '../App.css';
-import { Button } from './Button'
+// import { Button } from './Button'
 import './HeroSection.css';
 import video from '../video-12.mp4';
 

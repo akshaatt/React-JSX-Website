@@ -2,8 +2,7 @@ import React from 'react'
 // import '../../App.css'
 import './register.css'
 import { Link } from 'react-router-dom'
-import { Formik } from "formik"
-import * as Yup from "yup"
+
 
 export default function ValidationLoginForm(){
 
@@ -43,7 +42,7 @@ export default function ValidationLoginForm(){
                 </div>
                 <div className="text5">
                     <h3>Phone Numbers</h3>
-                    <p>546-865-208</p>
+                    <p>945972XXXX</p>
                 </div>
             </div>
         </div>
@@ -64,7 +63,7 @@ export default function ValidationLoginForm(){
                 </div>
                 <div className="inputBox5">
                     <textarea required="required" ></textarea>
-                    <span>Tell Your Concern...</span>
+                    <span>Tell Your Concern</span>
                 </div>
                 <Link to="/clear" className="inputBox5">
                 <div >

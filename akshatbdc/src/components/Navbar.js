@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../components/Navbar.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import logo from '../logo193.png';
 
 function Navbar() {
@@ -53,12 +53,12 @@ window.addEventListener('resize', showbutton);
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Contact US
+                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                            Contact Us
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact US</Button>}
+                    {/* {button && <Button buttonStyle='btn--outline'>Contact US</Button>} */}
                 </div>
 
             </nav>
